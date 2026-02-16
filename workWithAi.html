@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Juro Hero Section</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom, #e9edf2, #f6f7f9);
+  color: #111;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  font-size: 14px;
+  color: #333;
+}
+
+.nav-links li {
+  cursor: pointer;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.btn-outline {
+  padding: 8px 18px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+}
+
+.btn-dark {
+  padding: 8px 18px;
+  border-radius: 20px;
+  background: #000;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 100px 20px 60px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.hero h1 {
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.hero .cta-btn {
+  padding: 14px 32px;
+  border-radius: 30px;
+  background: #000;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+.rating {
+  font-size: 14px;
+  color: #333;
+}
+
+.stars {
+  color: #f5b301;
+  margin-bottom: 8px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header class="navbar">
+  <div class="logo">Juro</div>
+
+  <ul class="nav-links">
+    <li>Product</li>
+    <li>Solutions</li>
+    <li>Resources</li>
+    <li>Security</li>
+    <li>Pricing</li>
+  </ul>
+
+  <div class="nav-buttons">
+    <button class="btn-outline">Sign in</button>
+    <button class="btn-dark">Get a demo</button>
+  </div>
+</header>
+
+<section class="hero">
+  <h1>Agree contracts 10x<br>faster with AI</h1>
+  <p>
+    Empower your business with Juro’s flexible, collaborative
+    platform for creating, agreeing and managing contracts.
+  </p>
+
+  <button class="cta-btn">Get a demo</button>
+
+  <div class="rating">
+    <div class="stars">★★★★★</div>
+    <div>4.9 / 5 ★ Capterra &nbsp;&nbsp; 4.8 / 5 G2</div>
+  </div>
+</section>
+
+</body>
+</html>
