@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+  background-color: #0e0e12;
+  color: #ffffff;
+}
+
+.testimonials-section {
+  padding: 80px 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.subtitle {
+  color: #a1a1aa;
+  max-width: 700px;
+  margin: 0 auto 50px;
+  font-size: 18px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: #18181b;
+  padding: 20px;
+  border-radius: 16px;
+  text-align: left;
+  border: 1px solid rgba(255,255,255,0.05);
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(255,255,255,0.15);
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.profile h3 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.profile span {
+  font-size: 13px;
+  color: #71717a;
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #d4d4d8;
+}

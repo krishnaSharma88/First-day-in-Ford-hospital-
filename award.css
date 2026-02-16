@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f9fafc;
+}
+
+.trusted-section {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(to bottom, #f3f4f6, #ffffff);
+}
+
+.trusted-section h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.trusted-section h2 span {
+    color: #5b5ef5;
+    font-weight: 700;
+}
+
+/* Awards */
+.awards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.award-card {
+    background: #fff;
+    padding: 15px 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+    transition: 0.3s ease;
+}
+
+.award-card:hover {
+    transform: translateY(-5px);
+}
+
+.award-card img {
+    height: 120px;
+    object-fit: contain;
+}
+
+/* Brands Section */
+.brands {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.brand {
+    text-align: center;
+}
+
+.brand img {
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+/* Stars */
+.stars {
+    color: #ffc107;
+    font-size: 14px;
+}
+
+.stars span {
+    color: #555;
+    font-size: 13px;
+    margin-left: 5px;
+}

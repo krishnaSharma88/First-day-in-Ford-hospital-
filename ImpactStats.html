@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Section Styling */
+.stats-section {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #ffffff;
+  text-align: center;
+}
+
+/* Container */
+.stats-container {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+/* Stat Box */
+.stat-box {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 40px 20px;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  cursor: pointer;
+}
+
+.stat-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* Icon */
+.stat-box .icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+/* Numbers */
+.stat-box h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+/* Label */
+.stat-box p {
+  font-size: 16px;
+  opacity: 0.9;
+  letter-spacing: 0.5px;
+}
+
+    </style>
+</head>
+<body>
+    <section class="stats-section">
+  <div class="stats-container">
+    
+    <div class="stat-box">
+      <div class="icon">📊</div>
+      <h2>250+</h2>
+      <p>Projects Completed</p>
+    </div>
+
+    <div class="stat-box">
+      <div class="icon">🏆</div>
+      <h2>120+</h2>
+      <p>Happy Clients</p>
+    </div>
+
+    <div class="stat-box">
+      <div class="icon">💯</div>
+      <h2>98%</h2>
+      <p>Client Satisfaction</p>
+    </div>
+
+    <div class="stat-box">
+      <div class="icon">🚀</div>
+      <h2>5+ Years</h2>
+      <p>Industry Experience</p>
+    </div>
+
+  </div>
+</section>
+
+
+</body>
+</html>

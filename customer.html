@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Testimonials Section</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: #fff;
+}
+
+.section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 50px;
+  color: #cbd5e1;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: linear-gradient(145deg, #111827, #0b1220);
+  padding: 40px 25px;
+  margin-top: 30px;
+  border-radius: 16px;
+  width: 320px;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.avatar-wrapper {
+  position: relative;
+  width: 110px;
+  height: 110px;
+  margin: -90px auto 20px;
+}
+
+.avatar-bg {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background: radial-gradient(circle at 30% 30%, #34d399, #6366f1);
+  border-radius: 50%;
+  filter: blur(20px);
+  z-index: 0;
+}
+
+.avatar {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 4px solid #1e293b;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.role {
+  font-size: 14px;
+  color: #60a5fa;
+  margin-bottom: 15px;
+}
+
+.quote {
+  font-size: 14px;
+  color: #94a3b8;
+  line-height: 1.6;
+}
+</style>
+</head>
+
+<body>
+
+<section class="section">
+  <h2>Testimonials from users</h2>
+
+  <div class="cards">
+
+    <!-- Card 1 -->
+    <div class="card">
+      <div class="avatar-wrapper">
+        <div class="avatar-bg"></div>
+        <img src="https://i.pravatar.cc/100?img=12" class="avatar">
+      </div>
+      <div class="name">Ganesh SP</div>
+      <div class="role">Engineering – Atlassian</div>
+      <div class="quote">
+        “I had quickly created a working demo of an app in 2 hours and got a major deal thanks to FlutterFlow.”
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card">
+      <div class="avatar-wrapper">
+        <div class="avatar-bg"></div>
+        <img src="https://i.pravatar.cc/100?img=32" class="avatar">
+      </div>
+      <div class="name">Nick Karwowski</div>
+      <div class="role">Founder – TAGALONG</div>
+      <div class="quote">
+        “We've gone from feeling helpless about our platform to feeling hopeful about our future in a matter of weeks.”
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card">
+      <div class="avatar-wrapper">
+        <div class="avatar-bg"></div>
+        <img src="https://i.pravatar.cc/100?img=45" class="avatar">
+      </div>
+      <div class="name">Graciela Carrillo</div>
+      <div class="role">Founder</div>
+      <div class="quote">
+        “I feel like I know exactly what product-market fit feels like from the user side thanks to them.”
+      </div>
+    </div>
+
+
+    
+
+    
+
+
+
+    <!-- Card 2 -->
+    <div class="card">
+      <div class="avatar-wrapper">
+        <div class="avatar-bg"></div>
+        <img src="https://i.pravatar.cc/100?img=32" class="avatar">
+      </div>
+      <div class="name">Nick Karwowski</div>
+      <div class="role">Founder – TAGALONG</div>
+      <div class="quote">
+        “We've gone from feeling helpless about our platform to feeling hopeful about our future in a matter of weeks.”
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card">
+      <div class="avatar-wrapper">
+        <div class="avatar-bg"></div>
+        <img src="https://i.pravatar.cc/100?img=45" class="avatar">
+      </div>
+      <div class="name">Graciela Carrillo</div>
+      <div class="role">Founder</div>
+      <div class="quote">
+        “I feel like I know exactly what product-market fit feels like from the user side thanks to them.”
+      </div>
+    </div>
+
+
+
+    <!-- Card 1 -->
+    <div class="card">
+      <div class="avatar-wrapper">
+        <div class="avatar-bg"></div>
+        <img src="https://i.pravatar.cc/100?img=12" class="avatar">
+      </div>
+      <div class="name">Ganesh SP</div>
+      <div class="role">Engineering – Atlassian</div>
+      <div class="quote">
+        “I had quickly created a working demo of an app in 2 hours and got a major deal thanks to FlutterFlow.”
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</body>
+</html>
