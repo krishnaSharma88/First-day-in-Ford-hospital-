@@ -1,0 +1,68 @@
+Before
+{
+    Startup Business Consulting Process
+    
+
+    This's Heading 
+
+    Choose an hourly plan and begin right away. A consultant will schedule an initial meeting to review your project, objectives, and any challenges facing you and your business.
+
+    #1 Research 
+
+    descriptions:-
+
+    First step is meeting and discussing the business digital requirements and company goals. Options can be outlined and details. Better decisions can be made.
+
+    #2 Business Formation 
+
+     descriptions:-
+
+    First step is meeting and discussing the business digital requirements and company goals. Options can be outlined and details. Better decisions can be made.
+    
+    #3 Business Branding 
+
+     descriptions:-
+
+    First step is meeting and discussing the business digital requirements and company goals. Options can be outlined and details. Better decisions can be made.
+    
+    #4 Sales Efforts
+
+     descriptions:-
+
+    First step is meeting and discussing the business digital requirements and company goals. Options can be outlined and details. Better decisions can be made.
+}
+
+
+After
+{
+    Startup Business Consulting Process
+    
+
+    This's Heading 
+
+    Select a consulting plan that fits your needs and get started immediately. Once enrolled, a consultant will schedule an initial strategy session to discuss your goals, review your project details, and identify any current challenges impacting your business.
+
+    #1 Research & Market Validation
+
+    descriptions:-
+
+    We conduct in-depth market research to evaluate your industry, target audience, and competitors. This phase ensures your business idea is viable and positioned strategically for success.
+
+    #2 Business Formation & Structure
+
+     descriptions:-
+
+    We guide you through choosing the appropriate business structure (LLC, Corporation, Sole Proprietorship, etc.), assist with registration, and ensure all foundational legal and operational requirements are properly established.
+    
+    #3 Business Branding & Positioning 
+
+     descriptions:-
+
+    We help develop your brand identity, including brand messaging, positioning, visual direction, and value proposition to ensure your business stands out in the marketplace.
+    
+    #4 Sales Strategy & Growth Execution
+
+     descriptions:-
+
+    We design and implement customized sales strategies, lead generation systems, and outreach efforts to help you attract clients and drive consistent revenue growth.
+}
