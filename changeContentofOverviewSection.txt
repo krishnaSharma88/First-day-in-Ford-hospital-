@@ -1,0 +1,21 @@
+This's the content Before:-
+
+In paraghaph 
+{
+
+    Consultants can 
+    <span class="highlight style">Instantly Provide</span> 
+    valuable information, resources, Relationships, and 
+    <span class="hightlight">mostly clarity</span> 
+    to clients about technology needs, Requirements, cost, vendors, and other 
+    <span class="highlight style2">key aspects.</span>
+
+}
+
+This's what I Change After :-
+{
+    Consultants can quickly deliver valuable 
+    insights, resources, connections, and, most importantly, 
+    clarity to clients regarding technology needs, requirements, costs, vendors, 
+    and other critical considerations.
+}
